@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoFormularioMVC", "IntegracaoFormularioMVC\IntegracaoFormularioMVC.csproj", "{6B9D5A8F-C1D5-47B4-8535-E07EE92BFE1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoFormularioMVC", "IntegracaoFormularioMVC\IntegracaoFormularioMVC.csproj", "{EBD39B94-85AA-4739-B35C-C0EFAD8954DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B9D5A8F-C1D5-47B4-8535-E07EE92BFE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B9D5A8F-C1D5-47B4-8535-E07EE92BFE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B9D5A8F-C1D5-47B4-8535-E07EE92BFE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B9D5A8F-C1D5-47B4-8535-E07EE92BFE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD39B94-85AA-4739-B35C-C0EFAD8954DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD39B94-85AA-4739-B35C-C0EFAD8954DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD39B94-85AA-4739-B35C-C0EFAD8954DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD39B94-85AA-4739-B35C-C0EFAD8954DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {915C2EEB-E3CF-43BE-A036-E1FF170EA21B}
+		SolutionGuid = {09DA4076-9491-418E-8BC7-7F69D814ABCF}
 	EndGlobalSection
 EndGlobal
