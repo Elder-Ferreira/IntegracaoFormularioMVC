@@ -1,7 +1,10 @@
-﻿namespace IntegracaoFormularioMVC.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace IntegracaoFormularioMVC.Models
 {
     public class LivrosModel
     {
+        [Key]
         public int Id { get; set; }
         public string Titulo { get; set; }
         public string Autor { get; set; }
