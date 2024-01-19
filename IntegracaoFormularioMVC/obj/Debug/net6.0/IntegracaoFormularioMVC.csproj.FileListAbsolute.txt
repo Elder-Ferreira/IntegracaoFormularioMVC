@@ -66,3 +66,4 @@ C:\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\re
 C:\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\IntegracaoFormularioMVC.pdb
 C:\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\IntegracaoFormularioMVC.genruntimeconfig.cache
 C:\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\ref\IntegracaoFormularioMVC.dll
+C:\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\IntegracaoFormularioMVC.sourcelink.json
