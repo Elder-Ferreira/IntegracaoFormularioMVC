@@ -20,5 +20,10 @@ namespace IntegracaoFormularioMVC.Controllers
 
             return View(livros);
         }
+
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
     }
 }
