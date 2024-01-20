@@ -1,3 +1,32 @@
-﻿
+﻿@model IEnumerable<LivrosModel>
 
-<p>Teste</p>
+
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Título</th>
+      <th scope="col">Autor</th>
+      <th scope="col">Páginas</th>
+      <th scope="col">Capa Dura</th>
+      <th scope="col">Data Compra</th>
+    </tr>
+  </thead>
+  <tbody>
+
+        @if(Model != null)
+        {
+            @foreach(var livro in Model)
+            {
+                <tr>
+                    <th scope="row">@livro.Titulo</th>
+                    <td>@livro.Autor</td>
+                    <td>@livro.Paginas</td>
+                    <td>@livro.CapaDura</td>
+                    <td>@livro.DataCompra</td>
+                </tr>
+            }
+        }
+
+  </tbody>
+</table>
