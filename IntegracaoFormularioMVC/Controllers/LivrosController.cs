@@ -21,8 +21,23 @@ namespace IntegracaoFormularioMVC.Controllers
             return View(livros);
         }
 
+        [HttpGet]
         public IActionResult Cadastrar()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(LivrosModel livros)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Livros.Add(livros);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+
             return View();
         }
     }
