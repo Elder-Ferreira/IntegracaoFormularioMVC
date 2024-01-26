@@ -27,6 +27,24 @@ namespace IntegracaoFormularioMVC.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if(id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            LivrosModel livro = _db.Livros.FirstOrDefault(x => x.Id == id);
+
+            if (livro == null)
+            {
+                return NotFound();
+            }
+
+            return View(livro);
+        }
+
         [HttpPost]
         public IActionResult Cadastrar(LivrosModel livros)
         {

@@ -30,8 +30,8 @@
                     <td>@livro.CapaDura</td>
                     <td>@livro.DataCompra</td>
                     <td>
-                        <a asp-controller="Livros" asp-action="Editar" class="btn btn-warning mx-2">Editar</a>
-                        <a asp-controller="Livros" asp-action="Excluir" class="btn btn-danger mx-2">Excluir</a>
+                        <a asp-controller="Livros" asp-action="Editar" asp-route-id="@livro.Id" class="btn btn-warning mx-2">Editar</a>
+                            <a asp-controller="Livros" asp-action="Excluir" asp-route-id="@livro.Id" class="btn btn-danger mx-2">Excluir</a>
                     </td>
                 </tr>
             }
