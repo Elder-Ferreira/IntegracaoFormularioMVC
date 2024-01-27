@@ -1,6 +1,7 @@
 ﻿using IntegracaoFormularioMVC.Data;
 using IntegracaoFormularioMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Collections.Generic;
 
 namespace IntegracaoFormularioMVC.Controllers
@@ -57,6 +58,21 @@ namespace IntegracaoFormularioMVC.Controllers
             }
 
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Editar(LivrosModel livro)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Livros.Update(livro);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+
+            return View(livro);
+
         }
     }
 }
