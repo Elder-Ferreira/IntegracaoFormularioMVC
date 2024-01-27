@@ -46,6 +46,24 @@ namespace IntegracaoFormularioMVC.Controllers
             return View(livro);
         }
 
+        [HttpGet]
+        public IActionResult Excluir(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            LivrosModel livro = _db.Livros.FirstOrDefault(x => x.Id == id);
+
+            if (livro == null)
+            {
+                return NotFound();
+            }
+
+            return View(livro);
+        }
+
         [HttpPost]
         public IActionResult Cadastrar(LivrosModel livros)
         {
