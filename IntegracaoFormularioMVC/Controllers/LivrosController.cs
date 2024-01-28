@@ -64,6 +64,8 @@ namespace IntegracaoFormularioMVC.Controllers
             return View(livro);
         }
 
+        
+
         [HttpPost]
         public IActionResult Cadastrar(LivrosModel livros)
         {
@@ -91,6 +93,20 @@ namespace IntegracaoFormularioMVC.Controllers
 
             return View(livro);
 
+        }
+
+        [HttpPost]
+        public IActionResult Excluir(LivrosModel livro)
+        {
+            if (livro == null)
+            {
+                return NotFound();
+            }
+
+            _db.Livros.Remove(livro);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
         }
     }
 }
