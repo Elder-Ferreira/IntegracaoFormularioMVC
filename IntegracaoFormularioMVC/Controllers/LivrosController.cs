@@ -74,6 +74,8 @@ namespace IntegracaoFormularioMVC.Controllers
                 _db.Livros.Add(livros);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso";
+
                 return RedirectToAction("Index");
             }
 
@@ -88,8 +90,12 @@ namespace IntegracaoFormularioMVC.Controllers
                 _db.Livros.Update(livro);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Edição realizada com sucesso";
+
                 return RedirectToAction("Index");
             }
+
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição";
 
             return View(livro);
 
@@ -105,6 +111,8 @@ namespace IntegracaoFormularioMVC.Controllers
 
             _db.Livros.Remove(livro);
             _db.SaveChanges();
+
+            TempData["MensagemSucesso"] = "Remoção realizada com sucesso";
 
             return RedirectToAction("Index");
         }
