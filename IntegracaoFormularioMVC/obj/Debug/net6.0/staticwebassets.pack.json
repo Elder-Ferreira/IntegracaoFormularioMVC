@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\IntegracaoFormularioMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\wwwroot\\css\\Pulse.css.css",
+      "PackagePath": "staticwebassets\\css\\Pulse.css.css"
+    },
+    {
       "Id": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

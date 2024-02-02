@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+I0WSKuAtgt6cTxPI0DVau/iiNJs5gbrwjqLq2VqvB0=",
+  "Hash": "hwyu4X3IpTIoBJt2nlXLfmmlCWrriUOuMnOeAc+/2cg=",
   "Source": "IntegracaoFormularioMVC",
   "BasePath": "_content/IntegracaoFormularioMVC",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IntegracaoFormularioMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\wwwroot\\css\\Pulse.css.css",
+      "SourceId": "IntegracaoFormularioMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\wwwroot\\",
+      "BasePath": "_content/IntegracaoFormularioMVC",
+      "RelativePath": "css/Pulse.css.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pulse.css.css"
     },
     {
       "Identity": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\wwwroot\\css\\site.css",
