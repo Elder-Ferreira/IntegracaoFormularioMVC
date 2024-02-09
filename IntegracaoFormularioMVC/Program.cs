@@ -1,4 +1,6 @@
 using IntegracaoFormularioMVC.Data;
+using IntegracaoFormularioMVC.Integracao;
+using IntegracaoFormularioMVC.Integracao.Interfaces;
 using IntegracaoFormularioMVC.Integracao.Refit;
 using Microsoft.EntityFrameworkCore;
 using Refit;
@@ -12,6 +14,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<IViaCepIntegracao, ViaCepIntegracao>();
+
 
 builder.Services.AddRefitClient<IViaCepIntegracaoRefit>().ConfigureHttpClient(c =>
 {
