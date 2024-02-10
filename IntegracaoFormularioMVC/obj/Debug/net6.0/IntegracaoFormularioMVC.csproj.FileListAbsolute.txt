@@ -136,3 +136,5 @@ C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormulari
 C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\IntegracaoFormularioMVC.pdb
 C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\IntegracaoFormularioMVC.genruntimeconfig.cache
 C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\obj\Debug\net6.0\ref\IntegracaoFormularioMVC.dll
+C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\bin\Debug\net6.0\Refit.dll
+C:\Users\Windows\Documents\Workspace\IntegracaoFormularioMVC\IntegracaoFormularioMVC\bin\Debug\net6.0\Refit.HttpClientFactory.dll
