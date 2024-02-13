@@ -10,5 +10,6 @@ namespace IntegracaoFormularioMVC.Data
         }
 
         public DbSet<LivrosModel> Livros { get; set; }
+        public DbSet<ImagemModel> Imagens { get; set; }
     }
 }
