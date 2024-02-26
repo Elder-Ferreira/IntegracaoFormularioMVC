@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegracaoFormularioMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5cacf60c01cf628d949afead977fb30fc3bf05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1efe3150a85317bbd62a4e214f810b296ec2c48")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegracaoFormularioMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegracaoFormularioMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
