@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Nova pasta\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj": {}
+    "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Nova pasta\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj": {
+    "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Nova pasta\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj",
         "projectName": "IntegracaoFormularioMVC",
-        "projectPath": "C:\\Workspace\\Nova pasta\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj",
-        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Nova pasta\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\Documents\\Workspace\\IntegracaoFormularioMVC\\IntegracaoFormularioMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.26, )"
